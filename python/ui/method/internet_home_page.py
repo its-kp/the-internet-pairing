@@ -11,4 +11,7 @@ class Homepage(BasicFunctions):
 
     def add_remove_button_clickable(self):
         self.mouse_click(self.add_button)
+
+    def navigate_to_page(self):
+        self.browser.get('https://the-internet.herokuapp.com/')
         

@@ -13,3 +13,6 @@ class BasicFunctions:
 
     def verify_is_present(self, element):
         WebDriverWait(self.browser, 0.5).until(EC.element_to_be_clickable(element))
+
+    def find_multiple(self, element):
+        return self.browser.find_elements(element)
