@@ -14,4 +14,3 @@ class Homepage(BasicFunctions):
 
     def navigate_to_page(self):
         self.browser.get('https://the-internet.herokuapp.com/')
-        
